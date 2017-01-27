@@ -9,7 +9,7 @@ Links
 * [Twitter (mostly in Japanese)](https://twitter.com/enuroi)
 * [Github (almost nothing on it)](https://github.com/Ken-Kuroki)
 * [Facebook](https://www.facebook.com/ken.kuroki)
-* [LinkedIn](https://www.linkedin.com/in/ken-kuroki-3a8663135/)
+* [LinkedIn](https://www.linkedin.com/in/ken-kuroki/)
 
 Education
 ----------------------
