@@ -4,24 +4,18 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='One day when I tried to run scp to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
-Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
-So, instead of just echoing, do like this:
-if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
+<meta name='description' content='Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevent any sound from Chrome unless you unmute a tab.'>
 
-<meta property='og:title' content='Echoing in .bashrc clashes scp data transfer • Ken Kuroki'>
-<meta property='og:description' content='One day when I tried to run scp to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
-Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
-So, instead of just echoing, do like this:
-if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
-<meta property='og:url' content='https://ken-kuroki.github.io/post/20171012echoscp/'>
+<meta property='og:title' content='AutoMute extension for Chrome • Ken Kuroki'>
+<meta property='og:description' content='Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevent any sound from Chrome unless you unmute a tab.'>
+<meta property='og:url' content='https://ken-kuroki.github.io/post/20171012automute/'>
 <meta property='og:site_name' content='Ken Kuroki'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-12T17:02:40&#43;09:00'/><meta property='article:modified_time' content='2017-10-12T17:02:40&#43;09:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-12T17:35:08&#43;09:00'/><meta property='article:modified_time' content='2017-10-12T17:35:08&#43;09:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.29" />
 
-  <title>Echoing in .bashrc clashes scp data transfer • Ken Kuroki</title>
-  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171012echoscp/'>
+  <title>AutoMute extension for Chrome • Ken Kuroki</title>
+  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171012automute/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -67,7 +61,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
     <header class='header-container'>
   <div class='header entry-header'>
     <div class='header-info'>
-      <h1 class='title'>Echoing in .bashrc clashes scp data transfer</h1>
+      <h1 class='title'>AutoMute extension for Chrome</h1>
       
 
     </div>
@@ -82,7 +76,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
   
 </svg>
 <span class='screen-reader'>Posted on </span>
-  <time class='date' datetime='2017-10-12T17:02:40&#43;09:00'>2017, Oct 12</time>
+  <time class='date' datetime='2017-10-12T17:35:08&#43;09:00'>2017, Oct 12</time>
 </span>
 
   
@@ -98,17 +92,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
     
 
     <div class='entry-content'>
-  <p>One day when I tried to run <code>scp</code> to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing <code>echo</code> in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.</p>
-
-<p>Reference:
-<a href="http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc" target="_blank">http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc</a></p>
-
-<p>So, instead of just echoing, do like this:</p>
-
-<pre><code>if [[ $- =~ &quot;i&quot; ]]; then
-    echo something
-fi
-</code></pre>
+  <p>Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then <a href="https://chrome.google.com/webstore/detail/automute/kjcdcbhfpjkcjinohfaaihpcmpnpmpie" target="_blank">AutoMute</a> extension for Chrome comes handy. It automatically mutes every tab you open, and prevent any sound from Chrome unless you unmute a tab.</p>
 
 </div>
 
@@ -124,7 +108,7 @@ fi
   
 <nav class='entry-nav-container'>
   <div class='entry-nav'><div class='prev-entry'>
-      <a href='/post/20171012test/'>
+      <a href='/post/20171012echoscp/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -132,17 +116,7 @@ fi
   
 </svg>
  Previous</span>
-        <span class='screen-reader'>Previous post: </span>Testing a new blog</a>
-    </div><div class='next-entry'>
-      <a href='/post/20171012automute/'>
-        <span class='screen-reader'>Next post: </span>AutoMute extension for Chrome<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader'>Previous post: </span>Echoing in .bashrc clashes scp data transfer</a>
     </div></div>
 </nav>
 
