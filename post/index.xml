@@ -12,11 +12,22 @@
     
     <item>
       <title>AutoMute extension for Chrome</title>
-      <link>https://ken-kuroki.github.io/post/20171012automute/</link>
+      <link>https://ken-kuroki.github.io/post/20171013automute/</link>
       <pubDate>Fri, 13 Oct 2017 00:35:08 +0900</pubDate>
       
-      <guid>https://ken-kuroki.github.io/post/20171012automute/</guid>
+      <guid>https://ken-kuroki.github.io/post/20171013automute/</guid>
       <description>Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevent any sound from Chrome unless you unmute a tab.</description>
+    </item>
+    
+    <item>
+      <title>Fish shell tips</title>
+      <link>https://ken-kuroki.github.io/post/20171013fish/</link>
+      <pubDate>Fri, 13 Oct 2017 00:01:58 +0900</pubDate>
+      
+      <guid>https://ken-kuroki.github.io/post/20171013fish/</guid>
+      <description>Fish shell is a awesome shell. But at the same time it&amp;rsquo;s confusing when you switch your shell to fish from a conventional shell. Here&amp;rsquo;s some tips I wanted to know when I started to use it. Will be updated later, perhaps.
+How to set fish to vim mode? echo fish_vi_key_bindings &amp;gt;&amp;gt; ~/.config/fish/config.fish  Where’s $! equivalent? No such thing in fish. Use Alt + ↑ instead.
+Ref. http://fishshell.com/docs/current/faq.html#faq-history</description>
     </item>
     
     <item>

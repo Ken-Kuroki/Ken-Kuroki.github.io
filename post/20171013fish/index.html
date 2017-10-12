@@ -4,24 +4,22 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
-Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
-So, instead of just echoing, do like this:
-if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
+<meta name='description' content='Fish shell is a awesome shell. But at the same time it&rsquo;s confusing when you switch your shell to fish from a conventional shell. Here&rsquo;s some tips I wanted to know when I started to use it. Will be updated later, perhaps.
+How to set fish to vim mode? echo fish_vi_key_bindings &gt;&gt; ~/.config/fish/config.fish  Where’s $! equivalent? No such thing in fish. Use Alt &#43; ↑ instead.
+Ref. http://fishshell.com/docs/current/faq.html#faq-history'>
 
-<meta property='og:title' content='Echoing in .bashrc clashes scp data transfer • Ken Kuroki'>
-<meta property='og:description' content='One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
-Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
-So, instead of just echoing, do like this:
-if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
-<meta property='og:url' content='https://ken-kuroki.github.io/post/20171012echoscp/'>
+<meta property='og:title' content='Fish shell tips • Ken Kuroki'>
+<meta property='og:description' content='Fish shell is a awesome shell. But at the same time it&rsquo;s confusing when you switch your shell to fish from a conventional shell. Here&rsquo;s some tips I wanted to know when I started to use it. Will be updated later, perhaps.
+How to set fish to vim mode? echo fish_vi_key_bindings &gt;&gt; ~/.config/fish/config.fish  Where’s $! equivalent? No such thing in fish. Use Alt &#43; ↑ instead.
+Ref. http://fishshell.com/docs/current/faq.html#faq-history'>
+<meta property='og:url' content='https://ken-kuroki.github.io/post/20171013fish/'>
 <meta property='og:site_name' content='Ken Kuroki'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-12T17:02:40&#43;09:00'/><meta property='article:modified_time' content='2017-10-12T17:02:40&#43;09:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-13T00:01:58&#43;09:00'/><meta property='article:modified_time' content='2017-10-13T00:01:58&#43;09:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.29" />
 
-  <title>Echoing in .bashrc clashes scp data transfer • Ken Kuroki</title>
-  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171012echoscp/'>
+  <title>Fish shell tips • Ken Kuroki</title>
+  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171013fish/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -67,7 +65,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
     <header class='header-container'>
   <div class='header entry-header'>
     <div class='header-info'>
-      <h1 class='title'>Echoing in .bashrc clashes scp data transfer</h1>
+      <h1 class='title'>Fish shell tips</h1>
       
 
     </div>
@@ -82,7 +80,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
   
 </svg>
 <span class='screen-reader'>Posted on </span>
-  <time class='date' datetime='2017-10-12T17:02:40&#43;09:00'>2017, Oct 12</time>
+  <time class='date' datetime='2017-10-13T00:01:58&#43;09:00'>2017, Oct 13</time>
 </span>
 
   
@@ -98,17 +96,20 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
     
 
     <div class='entry-content'>
-  <p>One day when I tried to run <code>scp</code> to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by <code>echo</code> in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.</p>
+  
 
-<p>Reference:
-<a href="http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc" target="_blank">http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc</a></p>
+<p><a href="http://fishshell.com" target="_blank">Fish shell</a> is a awesome shell. But at the same time it&rsquo;s confusing when you switch your shell to fish from a conventional shell. Here&rsquo;s some tips I wanted to know when I started to use it. Will be updated later, perhaps.</p>
 
-<p>So, instead of just echoing, do like this:</p>
+<h2 id="how-to-set-fish-to-vim-mode">How to set fish to vim mode?</h2>
 
-<pre><code>if [[ $- =~ &quot;i&quot; ]]; then
-    echo something
-fi
+<pre><code>echo fish_vi_key_bindings &gt;&gt; ~/.config/fish/config.fish
 </code></pre>
+
+<h2 id="where-s-equivalent">Where’s <code>$!</code> equivalent?</h2>
+
+<p>No such thing in fish. Use <code>Alt + ↑</code> instead.</p>
+
+<p>Ref. <a href="http://fishshell.com/docs/current/faq.html#faq-history" target="_blank">http://fishshell.com/docs/current/faq.html#faq-history</a></p>
 
 </div>
 
@@ -124,7 +125,7 @@ fi
   
 <nav class='entry-nav-container'>
   <div class='entry-nav'><div class='prev-entry'>
-      <a href='/post/20171012test/'>
+      <a href='/post/20171012echoscp/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -132,10 +133,10 @@ fi
   
 </svg>
  Previous</span>
-        <span class='screen-reader'>Previous post: </span>Testing a new blog</a>
+        <span class='screen-reader'>Previous post: </span>Echoing in .bashrc clashes scp data transfer</a>
     </div><div class='next-entry'>
-      <a href='/post/20171013fish/'>
-        <span class='screen-reader'>Next post: </span>Fish shell tips<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+      <a href='/post/20171013automute/'>
+        <span class='screen-reader'>Next post: </span>AutoMute extension for Chrome<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>
   <polyline points="14 6 20 12 14 18"/>
