@@ -4,13 +4,13 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='One day when I tried to run scp to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
+<meta name='description' content='One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
 Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
 So, instead of just echoing, do like this:
 if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
 
 <meta property='og:title' content='Echoing in .bashrc clashes scp data transfer • Ken Kuroki'>
-<meta property='og:description' content='One day when I tried to run scp to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
+<meta property='og:description' content='One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
 Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
 So, instead of just echoing, do like this:
 if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
@@ -98,7 +98,7 @@ if [[ $- =~ &quot;i&quot; ]]; then echo something fi  '>
     
 
     <div class='entry-content'>
-  <p>One day when I tried to run <code>scp</code> to transfer data, the command somehow didn&rsquo;t run at att. It was caused by doing <code>echo</code> in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.</p>
+  <p>One day when I tried to run <code>scp</code> to transfer data between my terminal and a server, the command somehow didn&rsquo;t work. It was caused by <code>echo</code> in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.</p>
 
 <p>Reference:
 <a href="http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc" target="_blank">http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc</a></p>

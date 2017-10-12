@@ -5,7 +5,7 @@
     <link>https://ken-kuroki.github.io/</link>
     <description>Recent content on Ken Kuroki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 Oct 2017 17:35:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2017 00:35:08 +0900</lastBuildDate>
     
 	<atom:link href="https://ken-kuroki.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>AutoMute extension for Chrome</title>
       <link>https://ken-kuroki.github.io/post/20171012automute/</link>
-      <pubDate>Thu, 12 Oct 2017 17:35:08 +0900</pubDate>
+      <pubDate>Fri, 13 Oct 2017 00:35:08 +0900</pubDate>
       
       <guid>https://ken-kuroki.github.io/post/20171012automute/</guid>
       <description>Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevent any sound from Chrome unless you unmute a tab.</description>
@@ -25,7 +25,7 @@
       <pubDate>Thu, 12 Oct 2017 17:02:40 +0900</pubDate>
       
       <guid>https://ken-kuroki.github.io/post/20171012echoscp/</guid>
-      <description>One day when I tried to run scp to transfer data, the command somehow didn&amp;rsquo;t run at att. It was caused by doing echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
+      <description>One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&amp;rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
 Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
 So, instead of just echoing, do like this:
 if [[ $- =~ &amp;quot;i&amp;quot; ]]; then echo something fi  </description>
