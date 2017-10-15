@@ -4,18 +4,24 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevents any sound from Chrome unless you unmute a tab.'>
+<meta name='description' content='Insert the following before {{ end }} of themes/minimo/layouts/partials/svg/icons.html
+{{ else if eq &#34;qiita&#34; . }} &lt;circle cx=&#34;11&#34; cy=&#34;11&#34; r=&#34;11&#34;/&gt; &lt;polyline points=&#34;19 19 22 22&#34;/&gt;~  Add the following line to themes/minimo//data/theme.toml
+qiita = &#39;https://qiita.com/‘  Add the following line to [params.social] section of config.toml, so that you can link https://qiita.com/YourUserName.
+qiita = “YourUserName”  Add ”Qiita” to platform list defined in [params.social.config] section of config.toml like the example below.'>
 
-<meta property='og:title' content='AutoMute extension for Chrome • Ken Kuroki'>
-<meta property='og:description' content='Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevents any sound from Chrome unless you unmute a tab.'>
-<meta property='og:url' content='https://ken-kuroki.github.io/post/20171013automute/'>
+<meta property='og:title' content='Add qiita icon on your minimo theme of hugo site • Ken Kuroki'>
+<meta property='og:description' content='Insert the following before {{ end }} of themes/minimo/layouts/partials/svg/icons.html
+{{ else if eq &#34;qiita&#34; . }} &lt;circle cx=&#34;11&#34; cy=&#34;11&#34; r=&#34;11&#34;/&gt; &lt;polyline points=&#34;19 19 22 22&#34;/&gt;~  Add the following line to themes/minimo//data/theme.toml
+qiita = &#39;https://qiita.com/‘  Add the following line to [params.social] section of config.toml, so that you can link https://qiita.com/YourUserName.
+qiita = “YourUserName”  Add ”Qiita” to platform list defined in [params.social.config] section of config.toml like the example below.'>
+<meta property='og:url' content='https://ken-kuroki.github.io/post/20171015qiita/'>
 <meta property='og:site_name' content='Ken Kuroki'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-13T00:35:08&#43;09:00'/><meta property='article:modified_time' content='2017-10-13T00:35:08&#43;09:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-10-15T23:11:46&#43;09:00'/><meta property='article:modified_time' content='2017-10-15T23:11:46&#43;09:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.29" />
 
-  <title>AutoMute extension for Chrome • Ken Kuroki</title>
-  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171013automute/'>
+  <title>Add qiita icon on your minimo theme of hugo site • Ken Kuroki</title>
+  <link rel='canonical' href='https://ken-kuroki.github.io/post/20171015qiita/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -61,7 +67,7 @@
     <header class='header-container'>
   <div class='header entry-header'>
     <div class='header-info'>
-      <h1 class='title'>AutoMute extension for Chrome</h1>
+      <h1 class='title'>Add qiita icon on your minimo theme of hugo site</h1>
       
 
     </div>
@@ -76,7 +82,7 @@
   
 </svg>
 <span class='screen-reader'>Posted on </span>
-  <time class='date' datetime='2017-10-13T00:35:08&#43;09:00'>2017, Oct 13</time>
+  <time class='date' datetime='2017-10-15T23:11:46&#43;09:00'>2017, Oct 15</time>
 </span>
 
   
@@ -92,8 +98,20 @@
     
 
     <div class='entry-content'>
-  <p>Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then <a href="https://chrome.google.com/webstore/detail/automute/kjcdcbhfpjkcjinohfaaihpcmpnpmpie" target="_blank">AutoMute</a> extension for Chrome comes handy. It automatically mutes every tab you open, and prevents any sound from Chrome unless you unmute a tab.</p>
-
+  <p>Insert the following before <code>{{ end }}</code> of <code>themes/minimo/layouts/partials/svg/icons.html</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-icons.html" data-lang="icons.html"><span style="">{{ else if eq &#34;qiita&#34; . }}
+</span><span style="">&lt;circle cx=&#34;11&#34; cy=&#34;11&#34; r=&#34;11&#34;/&gt;
+</span><span style="">&lt;polyline points=&#34;19 19 22 22&#34;/&gt;~</span></code></pre>
+</div>
+<p>Add the following line to <code>themes/minimo//data/theme.toml</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-theme.toml" data-lang="theme.toml"><span style="">qiita = &#39;https://qiita.com/‘</span></code></pre>
+</div>
+<p>Add the following line to <code>[params.social]</code> section of <code>config.toml</code>, so that you can link <code>https://qiita.com/YourUserName</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-config.toml" data-lang="config.toml"><span style="">qiita = “YourUserName”</span></code></pre>
+</div>
+<p>Add <code>”Qiita”</code> to <code>platform</code> list defined in <code>[params.social.config]</code> section of <code>config.toml</code> like the example below.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-config.toml" data-lang="config.toml"><span style="">platforms = [&#34;github&#34;,&#34;twitter&#34;,&#34;linkedin&#34;,&#34;facebook&#34;, &#34;qiita”]</span></code></pre>
+</div>
 </div>
 
     
@@ -108,7 +126,7 @@
   
 <nav class='entry-nav-container'>
   <div class='entry-nav'><div class='prev-entry'>
-      <a href='/post/20171013fish/'>
+      <a href='/post/20171013automute/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -116,17 +134,7 @@
   
 </svg>
  Previous</span>
-        <span class='screen-reader'>Previous post: </span>Fish shell tips</a>
-    </div><div class='next-entry'>
-      <a href='/post/20171015qiita/'>
-        <span class='screen-reader'>Next post: </span>Add qiita icon on your minimo theme of hugo site<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader'>Previous post: </span>AutoMute extension for Chrome</a>
     </div></div>
 </nav>
 

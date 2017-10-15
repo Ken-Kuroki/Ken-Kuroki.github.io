@@ -5,10 +5,22 @@
     <link>https://ken-kuroki.github.io/post/</link>
     <description>Recent content in Posts on Ken Kuroki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 13 Oct 2017 00:35:08 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 23:11:46 +0900</lastBuildDate>
     
 	<atom:link href="https://ken-kuroki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add qiita icon on your minimo theme of hugo site</title>
+      <link>https://ken-kuroki.github.io/post/20171015qiita/</link>
+      <pubDate>Sun, 15 Oct 2017 23:11:46 +0900</pubDate>
+      
+      <guid>https://ken-kuroki.github.io/post/20171015qiita/</guid>
+      <description>Insert the following before {{ end }} of themes/minimo/layouts/partials/svg/icons.html
+{{ else if eq &amp;#34;qiita&amp;#34; . }} &amp;lt;circle cx=&amp;#34;11&amp;#34; cy=&amp;#34;11&amp;#34; r=&amp;#34;11&amp;#34;/&amp;gt; &amp;lt;polyline points=&amp;#34;19 19 22 22&amp;#34;/&amp;gt;~  Add the following line to themes/minimo//data/theme.toml
+qiita = &amp;#39;https://qiita.com/‘  Add the following line to [params.social] section of config.toml, so that you can link https://qiita.com/YourUserName.
+qiita = “YourUserName”  Add ”Qiita” to platform list defined in [params.social.config] section of config.toml like the example below.</description>
+    </item>
     
     <item>
       <title>AutoMute extension for Chrome</title>
