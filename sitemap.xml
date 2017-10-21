@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ken-kuroki.github.io/post/</loc>
+    <lastmod>2017-10-21T13:56:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ken-kuroki.github.io/link/</loc>
+    <lastmod>2017-10-21T13:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ken-kuroki.github.io/post/20171015qiita/</loc>
     <lastmod>2017-10-15T23:11:46+09:00</lastmod>
   </url>
@@ -44,12 +54,6 @@
   
   <url>
     <loc>https://ken-kuroki.github.io/</loc>
-    <lastmod>2017-10-15T23:11:46+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ken-kuroki.github.io/post/</loc>
     <lastmod>2017-10-15T23:11:46+09:00</lastmod>
     <priority>0</priority>
   </url>
