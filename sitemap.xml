@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://ken-kuroki.github.io/</loc>
+    <lastmod>2017-10-24T16:03:20+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ken-kuroki.github.io/post/20171015qiita/</loc>
     <lastmod>2017-10-15T23:11:46+09:00</lastmod>
   </url>
@@ -49,12 +54,6 @@
   
   <url>
     <loc>https://ken-kuroki.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ken-kuroki.github.io/</loc>
-    <lastmod>2017-10-15T23:11:46+09:00</lastmod>
     <priority>0</priority>
   </url>
   
