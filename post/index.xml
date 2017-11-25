@@ -16,7 +16,8 @@
       <pubDate>Sat, 25 Nov 2017 15:33:30 +0900</pubDate>
       
       <guid>https://ken-kuroki.github.io/post/20171125python_speedup/</guid>
-      <description>Some notes about speeding up on Python. - More than anything, avoid loops and utilize functions of Numpy/Scipy instead. - Pypy seems sort of blackmagic and there&amp;rsquo;re many pitfalls. - Numba is a JIT compiler and boosts some loops on numpy arrays. You just have to add @jit before the loop. - Use Cython for general speed enhancement, although it requires more modification of your codes.</description>
+      <description>Some notes about speeding up on Python.
+ More than anything, avoid loops and utilize functions of Numpy/Scipy instead. Pypy seems sort of blackmagic and there&amp;rsquo;re many pitfalls. Numba is a JIT compiler and boosts some loops on numpy arrays. You just have to add @jit before the loop. Use Cython for general speed enhancement, although it requires more modification of your codes.  </description>
     </item>
     
     <item>
