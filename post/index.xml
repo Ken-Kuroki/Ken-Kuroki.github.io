@@ -1,77 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>POSTS on Ken Kuroki</title>
-    <link>https://ken-kuroki.github.io/post/</link>
-    <description>Recent content in POSTS on Ken Kuroki</description>
+    <title>Posts on Ken KUROKI</title>
+    <link>https://Ken-Kuroki.github.io/post/</link>
+    <description>Recent content in Posts on Ken KUROKI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 21 Oct 2017 13:56:35 +0900</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://ken-kuroki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Ken-Kuroki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Speedup of Python</title>
-      <link>https://ken-kuroki.github.io/post/20171125python_speedup/</link>
-      <pubDate>Sat, 25 Nov 2017 15:33:30 +0900</pubDate>
-      
-      <guid>https://ken-kuroki.github.io/post/20171125python_speedup/</guid>
-      <description>Some notes about speeding up on Python.
- More than anything, avoid loops and utilize functions of Numpy/Scipy instead. Pypy seems sort of blackmagic and there&amp;rsquo;re many pitfalls. Numba is a JIT compiler and boosts some loops on numpy arrays. You just have to add @jit before the loop. Use Cython for general speed enhancement, although it requires more modification of your codes.  </description>
-    </item>
     
     <item>
-      <title>Add qiita icon on your minimo theme of hugo site</title>
-      <link>https://ken-kuroki.github.io/post/20171015qiita/</link>
-      <pubDate>Sun, 15 Oct 2017 23:11:46 +0900</pubDate>
+      <title>Refurbished this site</title>
+      <link>https://Ken-Kuroki.github.io/post/test/</link>
+      <pubDate>Mon, 01 Oct 2018 19:34:56 +0900</pubDate>
       
-      <guid>https://ken-kuroki.github.io/post/20171015qiita/</guid>
-      <description>Insert the following before {{ end }} of themes/minimo/layouts/partials/svg/icons.html
-{{ else if eq &amp;#34;qiita&amp;#34; . }} &amp;lt;circle cx=&amp;#34;11&amp;#34; cy=&amp;#34;11&amp;#34; r=&amp;#34;11&amp;#34;/&amp;gt; &amp;lt;polyline points=&amp;#34;19 19 22 22&amp;#34;/&amp;gt;~  Add the following line to themes/minimo//data/theme.toml
-qiita = &amp;#39;https://qiita.com/‘  Add the following line to [params.social] section of config.toml, so that you can link https://qiita.com/YourUserName.
-qiita = “YourUserName”  Add ”Qiita” to platform list defined in [params.social.config] section of config.toml like the example below.</description>
-    </item>
-    
-    <item>
-      <title>AutoMute extension for Chrome</title>
-      <link>https://ken-kuroki.github.io/post/20171013automute/</link>
-      <pubDate>Fri, 13 Oct 2017 00:35:08 +0900</pubDate>
-      
-      <guid>https://ken-kuroki.github.io/post/20171013automute/</guid>
-      <description>Sometimes, websites unexpectedly play sounds and that’s quite annoying, but you may not want to mute your computer as a whole, because you receive some other notifications. Then AutoMute extension for Chrome comes handy. It automatically mutes every tab you open, and prevents any sound from Chrome unless you unmute a tab.</description>
-    </item>
-    
-    <item>
-      <title>Fish shell tips</title>
-      <link>https://ken-kuroki.github.io/post/20171013fish/</link>
-      <pubDate>Fri, 13 Oct 2017 00:01:58 +0900</pubDate>
-      
-      <guid>https://ken-kuroki.github.io/post/20171013fish/</guid>
-      <description>Fish shell is a awesome shell. But at the same time it&amp;rsquo;s confusing when you switch your shell to fish from a conventional shell. Here&amp;rsquo;s some tips I wanted to know when I started to use it. Will be updated later, perhaps.
-How to set fish to vim mode? echo fish_vi_key_bindings &amp;gt;&amp;gt; ~/.config/fish/config.fish  Where’s $! equivalent? No such thing in fish. Use Alt + ↑ instead.
-Ref. http://fishshell.com/docs/current/faq.html#faq-history</description>
-    </item>
-    
-    <item>
-      <title>Echoing in .bashrc clashes scp data transfer</title>
-      <link>https://ken-kuroki.github.io/post/20171012echoscp/</link>
-      <pubDate>Thu, 12 Oct 2017 17:02:40 +0900</pubDate>
-      
-      <guid>https://ken-kuroki.github.io/post/20171012echoscp/</guid>
-      <description>One day when I tried to run scp to transfer data between my terminal and a server, the command somehow didn&amp;rsquo;t work. It was caused by echo in .bashrc. You have to make it conditional to interactive mode so that scp runs without the problem.
-Reference: http://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc
-So, instead of just echoing, do like this:
-if [[ $- =~ &amp;quot;i&amp;quot; ]]; then echo something fi  </description>
-    </item>
-    
-    <item>
-      <title>Testing a new blog</title>
-      <link>https://ken-kuroki.github.io/post/20171012test/</link>
-      <pubDate>Thu, 12 Oct 2017 17:00:28 +0900</pubDate>
-      
-      <guid>https://ken-kuroki.github.io/post/20171012test/</guid>
-      <description>I’ve tried some other blogging platforms but didn’t like any of them. Now here’s my new static site generated by Hugo and hosted by GitHub Pages. It’s simple, customizable, easy to switch to another platform and I like it, even though it obviously lacks comments and other dynamic functions. I’ll be using this site to put my cv and random posts mainly related to programming and bioinformatics research.
-Notes  Platform: Hugo Host: Github Pages Theme: minimo When you forget markdown grammar: Markdown Cheatsheet How to deploy on your GitHub page: Hugo | Host on GitHub  Edit deploy.</description>
+      <guid>https://Ken-Kuroki.github.io/post/test/</guid>
+      <description>I have just changed the theme for Hugo to Academic. This is an awesome theme fully equipped with things you might need if you&amp;rsquo;re in academia. Highly recommended.</description>
     </item>
     
   </channel>
